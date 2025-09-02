@@ -6,7 +6,7 @@
 /*   By: rraumain <rraumain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/26 11:52:23 by rraumain          #+#    #+#             */
-/*   Updated: 2025/03/26 13:32:13 by rraumain         ###   ########.fr       */
+/*   Updated: 2025/09/03 01:46:01 by rraumain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ std::string replace(std::string line, const std::string &s1, const std::string &
 	return (res);
 }
 
-int main( int argc, char ** argv )
+int main( int argc, char **argv )
 {
 	if (argc != 4)
 	{
