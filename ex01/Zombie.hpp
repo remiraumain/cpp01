@@ -6,7 +6,7 @@
 /*   By: rraumain <rraumain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/25 09:06:41 by rraumain          #+#    #+#             */
-/*   Updated: 2025/03/25 22:43:48 by rraumain         ###   ########.fr       */
+/*   Updated: 2025/09/03 00:18:02 by rraumain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class Zombie
 		void	announce( void );
 
 	private:
-		std::string	name_;
+		std::string	_name;
 };
 
 #endif

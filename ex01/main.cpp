@@ -6,7 +6,7 @@
 /*   By: rraumain <rraumain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/25 09:24:37 by rraumain          #+#    #+#             */
-/*   Updated: 2025/03/25 23:01:53 by rraumain         ###   ########.fr       */
+/*   Updated: 2025/09/03 00:22:42 by rraumain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,8 @@ Zombie	*zombieHorde( int N, std::string name);
 
 int	main( void )
 {
-	Zombie	*horde = zombieHorde(5, "Jacky");
+	int N = 5;
+	Zombie	*horde = zombieHorde(N, "Robert");
 
 	if (!horde)
 	{
@@ -25,7 +26,7 @@ int	main( void )
 		return (1);
 	}
 	
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < N; i++)
 		horde[i].announce();
 
 	delete[] horde;
