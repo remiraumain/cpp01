@@ -6,7 +6,7 @@
 /*   By: rraumain <rraumain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/26 11:01:39 by rraumain          #+#    #+#             */
-/*   Updated: 2025/03/26 11:15:47 by rraumain         ###   ########.fr       */
+/*   Updated: 2025/09/03 01:13:55 by rraumain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ class HumanA
 		void attack( void ) const;
 		
 	private:
-		std::string name;
-		Weapon &weapon;
+		std::string _name;
+		Weapon &_weapon;
 };
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: rraumain <rraumain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/25 23:54:40 by rraumain          #+#    #+#             */
-/*   Updated: 2025/03/26 11:00:24 by rraumain         ###   ########.fr       */
+/*   Updated: 2025/09/03 00:52:57 by rraumain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class Weapon
 		void setType( std::string );
 
 	private:
-		std::string	type;
+		std::string	_type;
 };
 
 #endif
