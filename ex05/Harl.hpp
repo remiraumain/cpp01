@@ -6,7 +6,7 @@
 /*   By: rraumain <rraumain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/26 13:41:54 by rraumain          #+#    #+#             */
-/*   Updated: 2025/03/26 14:06:55 by rraumain         ###   ########.fr       */
+/*   Updated: 2025/09/03 08:46:15 by rraumain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ class Harl
 		~Harl();
 
 		void complain( std::string level );
+		
 	private:
 		void debug( void );
 		void info( void );

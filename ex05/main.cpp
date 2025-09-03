@@ -6,7 +6,7 @@
 /*   By: rraumain <rraumain@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/26 13:41:41 by rraumain          #+#    #+#             */
-/*   Updated: 2025/03/26 14:40:09 by rraumain         ###   ########.fr       */
+/*   Updated: 2025/09/03 08:53:43 by rraumain         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	main()
 	harl.complain("ERROR");
 
 	std::cout << "\nTest unknown level:" << std::endl;
-	harl.complain("RAS");
+	harl.complain("HARL IS OK");
 
 	return (0);
 }
